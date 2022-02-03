@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-4</x>
+      <y>3</y>
+      <width>801</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../image/images.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>316</x>
+      <y>190</y>
+      <width>151</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Get_infomation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 85, 0);</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>400</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>357</x>
+     <y>271</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

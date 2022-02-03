@@ -1,0 +1,11 @@
+cache.o
+form.o
+infomation.o
+main.o
+mainwindow.o
+repair.o
+shoe.o
+waxe.o
+moc_form.o
+moc_infomation.o
+moc_mainwindow.o

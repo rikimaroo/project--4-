@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>411</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../image/index.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>240</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Gender:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Men</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Female</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Shoe Model:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_2">
+      <item>
+       <property name="text">
+        <string>Classic</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sport</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Other</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>100</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Shoe Brand:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_3">
+      <item>
+       <property name="text">
+        <string>Adidas</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jordan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Nike</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Puma</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Waxe Model:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_4">
+      <item>
+       <property name="text">
+        <string>Abri</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ferchei</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fori</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ghatrei</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Waxe brand:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_5">
+      <item>
+       <property name="text">
+        <string>Kingly</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Pwax</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Panda</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>190</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Repair:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox_6">
+      <item>
+       <property name="text">
+        <string>Sew</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Glue</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>198</x>
+     <y>256</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>294</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
